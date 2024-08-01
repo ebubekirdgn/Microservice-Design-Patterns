@@ -1,12 +1,98 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171459_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Order.API\\Migrations\\20240801171459_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6E24CF-5AED-4800-A92D-9492A29A7BE0}|Order.API\\Order.API.csproj|c:\\users\\dogan-vm\\documents\\github\\microservice-design-patterns\\microserviceswithdesignpatterns\\order.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A6E24CF-5AED-4800-A92D-9492A29A7BE0}|Order.API\\Order.API.csproj|solutionrelative:order.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171158_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Order.API\\Migrations\\20240801171158_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171047_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Order.API\\Migrations\\20240801171047_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 226,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240801171459_init1.cs",
+              "DocumentMoniker": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171459_init1.cs",
+              "RelativeDocumentMoniker": "Order.API\\Migrations\\20240801171459_init1.cs",
+              "ToolTip": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171459_init1.cs",
+              "RelativeToolTip": "Order.API\\Migrations\\20240801171459_init1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:14:59.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240801171158_init1.cs",
+              "DocumentMoniker": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171158_init1.cs",
+              "RelativeDocumentMoniker": "Order.API\\Migrations\\20240801171158_init1.cs",
+              "ToolTip": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171158_init1.cs",
+              "RelativeToolTip": "Order.API\\Migrations\\20240801171158_init1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:11:58.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Order.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\appsettings.json",
+              "RelativeToolTip": "Order.API\\appsettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAIAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-01T17:11:08.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240801171047_init1.cs",
+              "DocumentMoniker": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171047_init1.cs",
+              "RelativeDocumentMoniker": "Order.API\\Migrations\\20240801171047_init1.cs",
+              "ToolTip": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Migrations\\20240801171047_init1.cs",
+              "RelativeToolTip": "Order.API\\Migrations\\20240801171047_init1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:10:47.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 166,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
