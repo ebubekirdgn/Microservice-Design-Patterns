@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6E24CF-5AED-4800-A92D-9492A29A7BE0}|Order.API\\Order.API.csproj|c:\\users\\dogan-vm\\documents\\github\\microservice-design-patterns\\microserviceswithdesignpatterns\\order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6E24CF-5AED-4800-A92D-9492A29A7BE0}|Order.API\\Order.API.csproj|solutionrelative:order.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
+        {
+          "DockedHeight": 313,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Order.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Dogan-VM\\Documents\\GitHub\\Microservice-Design-Patterns\\MicroservicesWithDesignPatterns\\Order.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Order.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T07:45:31.371Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
         {
           "DockedHeight": 183,
           "SelectedChildIndex": -1,
@@ -14,6 +38,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
