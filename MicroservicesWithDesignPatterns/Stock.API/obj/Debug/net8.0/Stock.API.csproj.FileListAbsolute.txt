@@ -39,3 +39,6 @@ C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWit
 C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Stock.API\obj\Debug\net8.0\Stock.API.pdb
 C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Stock.API\obj\Debug\net8.0\Stock.API.genruntimeconfig.cache
 C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Stock.API\obj\Debug\net8.0\ref\Stock.API.dll
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Stock.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Stock.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Stock.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
