@@ -1,0 +1,61 @@
+# Build outputs
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+**/packages/*
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider specific files
+.idea/
+
+# Resharper specific files
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET Core
+**/wwwroot/node_modules/
+**/wwwroot/lib/
+
+# .NET Core specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Microsoft Azure Web App publish settings. 
+# This includes the Azure Web App publish profile credentials
+# to deploy your application to Azure
+PublishProfiles/
+
+# User-specific files
+*.rsuser
+*.rsapplicationhost
+
+# Mac/Linux specific files
+*.DS_Store
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db

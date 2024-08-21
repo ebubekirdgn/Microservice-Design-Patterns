@@ -1,0 +1,12 @@
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\bin\Debug\net8.0\Shared.deps.json
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\bin\Debug\net8.0\Shared.dll
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\bin\Debug\net8.0\Shared.pdb
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.dll
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\refint\Shared.dll
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\Shared.pdb
+C:\Users\Dogan-VM\Documents\GitHub\Microservice-Design-Patterns\MicroservicesWithDesignPatterns\Shared\obj\Debug\net8.0\ref\Shared.dll
