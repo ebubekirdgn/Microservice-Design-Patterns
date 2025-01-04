@@ -1,57 +1,39 @@
-using MassTransit;
-using Microsoft.EntityFrameworkCore;
-using Shared;
-using Stock.API.Consumers;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Stock.API.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddMassTransit(x =>
+namespace Stock.API
 {
-    x.AddConsumer<OrderCreatedEventConsumer>();
-    x.UsingRabbitMq((context, cfg) =>
+    public class Program
     {
-        cfg.Host(builder.Configuration.GetConnectionString("RabbitMQ"));
-        cfg.ReceiveEndpoint(RabbitMQSettingsConst.StockOrderCreatedEventQueueName, e =>
+        public static void Main(string[] args)
         {
-            e.ConfigureConsumer<OrderCreatedEventConsumer>(context);
-        });
-    });
-});
+            var host = CreateHostBuilder(args).Build();
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseInMemoryDatabase("InMemoryDb");
-});
+            using (var scope = host.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-var app = builder.Build();
+                context.Stocks.Add(new Models.Stock() { Id = 1, ProductId = 1, Count = 100 });
+                context.Stocks.Add(new Models.Stock() { Id = 2, ProductId = 2, Count = 100 });
+                context.SaveChanges();
+            }
 
-using (var scope = app.Services.CreateScope())
-{
-    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            host.Run();
+        }
 
-    context.Stocks.Add(new Stock.API.Models.Stock() { Id = 1, ProductId = 1, Count = 100 });
-    context.Stocks.Add(new Stock.API.Models.Stock() { Id = 2, ProductId = 2, Count = 100 });
-    context.SaveChanges();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

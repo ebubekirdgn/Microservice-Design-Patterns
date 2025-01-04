@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using Order.API.DTOs;
 using Order.API.Models;
 using Shared;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Order.API.Controllers
 {
@@ -11,8 +15,8 @@ namespace Order.API.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-
         private readonly AppDbContext _context;
+
         private readonly IPublishEndpoint _publishEndpoint;
 
         public OrdersController(AppDbContext context, IPublishEndpoint publishEndpoint)
@@ -20,6 +24,7 @@ namespace Order.API.Controllers
             _context = context;
             _publishEndpoint = publishEndpoint;
         }
+
         [HttpPost]
         public async Task<IActionResult> Create(OrderCreateDto orderCreate)
         {
@@ -28,7 +33,7 @@ namespace Order.API.Controllers
                 BuyerId = orderCreate.BuyerId,
                 Status = OrderStatus.Suspend,
                 Address = new Address { Line = orderCreate.Address.Line, Province = orderCreate.Address.Province, District = orderCreate.Address.District },
-                CreatedDate = DateTime.Now,
+                CreatedDate = DateTime.Now
             };
 
             orderCreate.orderItems.ForEach(item =>

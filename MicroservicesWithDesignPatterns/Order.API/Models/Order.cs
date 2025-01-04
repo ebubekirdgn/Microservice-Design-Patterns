@@ -1,4 +1,9 @@
-﻿namespace Order.API.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Order.API.Models
 {
     public class Order
     {
@@ -11,7 +16,7 @@
 
         public OrderStatus Status { get; set; }
 
-        public string? FailMessage { get; set; }
+        public string FailMessage { get; set; }
     }
 
     public enum OrderStatus

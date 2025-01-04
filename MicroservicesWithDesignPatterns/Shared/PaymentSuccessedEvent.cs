@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Shared
 {
-    public class OrderItemMessage
+    public class PaymentCompletedEvent
     {
-        public int ProductId { get; set; }
-        public int Count { get; set; }
+        public int orderId { get; set; }
+
+        public string BuyerId { get; set; }
     }
 }
